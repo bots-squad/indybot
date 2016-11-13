@@ -1,4 +1,4 @@
-module appsimple
+module appslack
 
 import bots
 import adapter.slack
