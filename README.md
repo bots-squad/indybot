@@ -15,7 +15,7 @@
 
 #### minimal application script
 
-```
+```golo
 module appslack
 
 import bots
