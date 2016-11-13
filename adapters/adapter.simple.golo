@@ -1,7 +1,7 @@
 module adapter.simple
 
-augmentation botFeatures = {
+augmentation botSimpleFeatures = {
   function yo = |this| -> println("yo!")
 }
 
-augment bots.types.indyBot with botFeatures
+augment bots.types.indyBot with botSimpleFeatures
