@@ -15,6 +15,9 @@
 - script is in `/applications`
 - its name is `app.slack.golo` *remark: you can rename it or create a new one, so don't forget to update `indybot.slack.sh`*
 
+:warning: :wave: you can run it like that: `SLACK_INDY_TOKEN=your_token golo golo --classpath jars/*.jar  --files core/*.golo adapters/adapter.slack.golo applications/app.slack.golo 
+`
+
 #### minimal application script
 
 ```golo
